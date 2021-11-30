@@ -1,0 +1,24 @@
+
+.td_element {
+    background: cyan;
+}
+
+.td2 {
+    background-color: rgb(140, 90, 144);
+}
+
+.td3 {
+    background-color: #246810;
+}
+
+.td4 {
+    background-color: rgb(182, 169, 167);
+}
+
+.td5 {
+    background-color: rgba(300, 0, 95, 1);
+}
+
+.td6 {
+    background-color: hsla(70, 70%, 30%, 2);
+}

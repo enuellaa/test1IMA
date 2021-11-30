@@ -1,0 +1,32 @@
+#idBody {
+    background-color: black;
+}
+
+.div1 {
+    margin: 40px;
+    border: 2px;
+    border-style: dashed;
+    padding: 60px;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.div2 {
+    border: 2px;
+    padding: 50px;
+    background-color: lightgreen;
+}
+
+.div3 {
+    padding: 40px;
+    border: 2px;
+    background-color: lightsteelblue;
+}
+
+.div4 {
+    padding: 30px;
+    margin: 30px;
+    border: 2px;
+    border-style: dashed;
+    background-color: white;
+}

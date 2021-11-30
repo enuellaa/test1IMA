@@ -1,0 +1,24 @@
+.Div1 {
+    border: 5px solid black; 
+    padding: 30px; background-color: red;
+}
+
+.Div2 {
+    border: 2px solid black;
+    padding: 15px; background-color: royalblue; 
+}
+
+.Div3 {
+    border: 2px solid black;
+    padding: 15px; background-color: royalblue;
+}
+
+.Div4 {
+    border: 2px solid black;
+    padding: 15px; background-color: royalblue;
+}
+
+.span1 {
+    border: 2px solid black;
+    padding: 2px; background-color: white;
+}

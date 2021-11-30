@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        table, tr, td{
+            border: 1px solid black
+        }
+        table, tr, td, textarea {
+            width: 650px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="GET">
+    <h1>Adobe's installasjons og salgsavtale</h1>
+
+    <fieldset>
+        <legend>Personlig informasjon</legend>
+    
+    <table>
+        <tr>
+            <td style="width: 100px"><label for="navn">Navn</label></td>
+            <td><input type="text" name="navn" id="navn" placeholder="Skriv navnet ditt"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Epost</label></td>
+            <td><input type="email" name="epost" id="email" placeholder="**********@gmail.com"></td>
+        </tr>
+            <td><label for="file">Legg til bildet</label></td>
+            <td><input type="file" id="file" name="legg til bildet"></td>
+    </table>
+    </fieldset>
+    <fieldset>
+        <legend>Annen informasjon</legend>
+    <table>
+        <tr>
+            <td><label for="date">Fodselsdato</label></td>
+            <td><input type="date" name="date" id="date"></td>
+        </tr>
+        <tr>
+            <td><label for="1-5 år">Erfaring i IT-bransjen</label></td>
+            <td><input type="radio" name="1-5 år" id="1-5 år" value="1-5 år">1-5 år
+            <br>
+            <input type="radio" name="6-10 år" id="6-10 år" value="6-10 år">6-10 år
+            <br>
+            <input type="radio" name="+10 år" id="+10 år" value="+10 år">+10 år
+            <br>
+        </td>
+        </tr>
+        <tr>
+            <td><label for="Programmerings språk">Programmerings språk</label></td>
+            <td><select name="Programmerings språk" id="Programmerings språk">
+                <option value="C#">C#</option>
+                <option value="PHP">PHP</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="Javascript">Javascript</option>
+            </select></td>
+        </tr>
+    </table>
+    </fieldset>
+    <fieldset>
+        <legend>Kontraktskopi</legend>
+        <textarea style="width: 400px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum asperiores earum delectus beatae esse, aliquid eius, quidem ab ad nihil unde deserunt non rerum natus sint aperiam ut, quis dolorem.</textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Kontrakstbekreftelse</legend>
+        <label for="kontrakstbekreftelse">Jeg godtar informasjonen nedenfor og bekrefter avtalen.</label>
+        <input type="checkbox" name="kontrakstbekreftelse" id="kontrakstbekreftelse">
+        <br>
+        <button style="height: 30px" type="submit">Lagre skjema</button>
+        <button style="height: 30px" type="reset">Reset skjema</button>
+    </fieldset>
+</form>
+</body>
+</html>

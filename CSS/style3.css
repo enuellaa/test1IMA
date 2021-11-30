@@ -1,0 +1,25 @@
+.classimg1 {
+    margin: 20px;
+
+    border-radius: 10px;
+    background-color: crimson;
+    height: 200px;
+    line-height: 200px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.classimg2 {
+    margin: 20px;
+
+    border-radius: 10px;
+    background-color: crimson;
+    height: 200px;
+    line-height: 200px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}

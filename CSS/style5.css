@@ -1,0 +1,19 @@
+.classdiv1 {
+    margin: 50px;
+    border-radius: 10px;
+    background-color: crimson;
+    height: 15px;
+    width: 155px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.classdiv2 {
+    margin: 10px;
+    border-radius: 10px;
+    background-color: crimson;
+    height: 45px;
+    width: 150px;
+    display: inline-block;
+    padding: 50px;
+}

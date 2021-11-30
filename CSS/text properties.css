@@ -1,0 +1,31 @@
+.ptag1 {
+    color: darkmagenta;
+}
+
+.ptag2 {
+    text-align: center;
+}
+
+.ptag3 {
+    text-decoration:overline;
+}
+
+.ptag4 {
+    text-transform: capitalize;
+}
+
+.ptag5 {
+    letter-spacing: 5px;
+}
+
+.ptag6 {
+    direction: rtl;
+}
+
+.ptag7 {
+    word-spacing: 15px;
+}
+
+.ptag8 {
+    text-shadow: 2px 5px red;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Army Membership</title>
+    <style>
+        table, tr, td {
+            border: 1px solid black;
+        }
+        table, tr, td, textarea {
+            width: 650px;
+        }
+    </style>
+</head>
+<body>
+    <form action="army membership results.html" method="get">
+        <img src="https://blog.logomyway.com/wp-content/uploads/2020/11/BTS-army-logo.jpg" alt="A picture of BTS and ARMY logo">
+        <h1>ARMY MEMBERSHIP FORM</h1>
+        <p>If you want to be a part BTS' fandom; ARMY, all you have to do is fill this form and submit it.</p>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <table>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" name="name" id="name" placeholder="enter your fullname"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age</label></td>
+                    <td><input type="number" name="age" id="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email" placeholder="***********@gmail.com"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Logins</legend>
+
+            <table>
+                <tr>
+                    <td><label for="username">Username</label></td>
+                    <td><input type="text" name="username" id="username" placeholder="username" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" name="password" id="password" placeholder="password" required></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>BTS</legend>
+
+            <table>
+                <tr>
+                    <td><label for="">How did you know about BTS?</label></td>
+                    <td><input type="radio" name="Social media" id="Social media" value="Social media">Social media
+                    <br>
+                    <input type="radio" name="Friend(s)" id="Friend(s)" value="Friend(s)">Friend(s)
+                    <br>
+                    <input type="radio" name="Family" id="Family" value="Family">Family
+                    <br>
+                    <input type="radio" name="Television" id="Television" value="Television">Television
+                </td>
+                </tr>
+                <tr>
+                    <td><label for="OT7">Who is your BTS bias?</label></td>
+                    <td><input type="checkbox" name="OT7" id="OT7">OT7
+                    <br>
+                    <input type="checkbox" name="Namjoon" id="Namjoon">Namjoon
+                    <br>
+                    <input type="checkbox" name="Jin" id="Jin">Jin
+                    <br>
+                    <input type="checkbox" name="Suga" id="Suga">Suga
+                    <br>
+                    <input type="checkbox" name="J-Hope" id="J-Hope">J-Hope
+                    <br>
+                    <input type="checkbox" name="Jimin" id="Jimin">Jimin
+                    <br>
+                    <input type="checkbox" name="V" id="V">V
+                    <br>
+                    <input type="checkbox" name="JK" id="JK">JK
+                </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Reason for membership</legend>
+            <textarea name="Why" id="Why" cols="30" rows="10" placeholder="enter your reason here"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Agreement</legend>
+            <label for="agreement">I agree to the terms and conditions of Army Membership</label>
+            <input type="checkbox" name="agreement" id="agreement">
+        </fieldset>
+        <fieldset>
+            <button style="height: 30px;" type="reset">Reset</button>
+            <button style="height: 30px;" type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
