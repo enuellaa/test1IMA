@@ -1,0 +1,115 @@
+
+.p1 {
+    color: blue;
+}
+
+.p2 {
+    text-align: center;
+}
+
+.p3 {
+    text-decoration: overline;
+}
+
+.p4 {
+    text-decoration: line-through;
+}
+
+.p5 {
+    letter-spacing: 3px;
+}
+
+.p6 {
+    text-align: right;
+}
+
+.p7 {
+    text-shadow: 2px 2px;
+}
+
+
+
+.ul1 {
+    list-style: none;
+    margin: 0px;
+   
+}
+
+.ul1 {
+    display: block;
+    padding: 8px;
+    text-decoration:none;
+}
+
+.aTag {
+    text-decoration: none;
+}
+
+.li2 {
+    display: inline;
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: blanchedalmond; 
+}
+
+
+
+.li3 {
+    display: inline;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+
+.li4 {
+    display: inline;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+
+.li5 {
+    display: inline;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+
+.li6 {
+    display: inline;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+
+.p12 {
+    text-align: center;
+    color: darkgray;
+}
+
+#header {
+    background-color: whitesmoke;
+    text-align: right;
+    border-top: 5px solid #B30000;
+}
+.divMain {
+    border-top: 3px solid #B30000;
+}
+
+#footer {
+    background-color: whitesmoke;
+    border-top: 3px solid #B30000;
+    border-bottom: 5px solid #B30000;
+}
+
+.ul2 {
+    list-style-type:square;
+}
+
+a:link {
+    color: black;
+}
+a:hover {
+    color: greenyellow;
+}

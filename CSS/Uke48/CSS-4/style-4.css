@@ -1,0 +1,41 @@
+
+.ul1 {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ol1 {
+    list-style: square;
+}
+.li2 {
+    display: inline;
+}
+
+.li3 {
+    display: inline;
+}
+
+.li4 {
+    display: inline;
+}
+
+.li5 {
+    display: inline;
+}
+
+.li6 {
+    display: inline;
+}
+
+li {
+    display: block;
+    padding: 8px;
+    text-decoration:none
+}
+
+#nave {
+    border-top: #8b3000 2px;
+    border-bottom-color: #8b3000 2px;
+    text-align: right;
+}
