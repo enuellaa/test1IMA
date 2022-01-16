@@ -1,0 +1,14 @@
+
+.container {
+    display: flex;
+    border: 2px solid white;
+    justify-content: flex-end;
+    background-color: blue;
+}
+
+.flex-item {
+    color: white;
+    padding: 10px;
+    text-align: center; 
+    margin: 3px;
+}
